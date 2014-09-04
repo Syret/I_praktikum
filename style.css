@@ -1,0 +1,20 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background:url(img/bg.png);
+}
+header{
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
+}
+.logo{
+	margin-left: 50px;
+}
+input{
+  position: relative;
+  bottom: 25px;
+  left: 250px;
+}
