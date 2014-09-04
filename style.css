@@ -18,3 +18,10 @@ input{
   bottom: 25px;
   left: 250px;
 }
+a{
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  list-style: none;
+  color: #a3a3a3;
+}
