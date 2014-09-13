@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif; 
+}
+
+body {
+	background-image: url("../img/bg.png"); 
+	 
+}
+
+header {
+	width:97,2%;
+	height:112px;
+	padding: 20px 20px 0px; 
+	background-color:#FFF;
+}
+
+.logos{
+	float: left; 
+	margin-left: 35px; 
+}
+
+#logo h1 {
+	font-size: 33px;
+	color: #ff0000;
+	font-weight: bold;
+}
+
+#logo a{
+	color: inherit;
+	text-decoration: none; 
+}
+
+#slogan p {
+	color: #787878; 
+	font-size: 18px; 
+}
+
+
+.menus{
+	text-align: right;
+	padding: 10px 20px 35px 0;
+}
+
+.menus a{
+	text-decoration: none; 
+	color: #787878;	
+	}
+	
+input:active{
+	border: none;
+}
+.search a {
+	padding: 0 5px 0 5px;
+	font-size: 11px;
+}
+
+.search li {
+	display:inline-block;
+}
+
+.search_text{
+	border:none;
+	background: url('../img/search_text.png') no-repeat -5px 12px;
+}
+.button { 
+	margin-left: -40px;
+	padding:6px 15px 6px 30px;
+	background: url('../img/search.png') no-repeat; 
+	border: none;
+}
+
+.nav a{
+	padding: 0px 9px 0 9px; 
+	font-size: 18px;
+}
+
+.nav a:last-child{padding-right: 0}
+
+.location {
+	color: #303132;
+	font-weight: 700;
+	}
+main {
+	padding:30px 20px 60px 20px;
+	}
+.nav2{
+	border-bottom: solid #2e2e2d 1px;
+	width: 25%;
+	margin-bottom: 30px;
+	margin-right: 18px;
+}
+
+.nav2 li{
+	display: inline-block;
+	margin-bottom: 15px;
+	padding-right: 10px;
+	}
+
+.nav2 a {
+	color: #c2c2c2;
+	font-size: 14px;
+	text-decoration: none;
+	}
+			
+.nav2 .position2 {
+	color: #fff;
+	font-weight: 700;
+	}
+section{
+	float: left;
+}
+h6{
+	float: right;
+	font-weight: bold;
+	font-style: italic; 
+}
+h5, h6{
+	color: #8d8d8d;
+	margin: 10px 0px;
+}
+article{
+	width: 50%;
+	float: right;
+	margin-right: 250px;
+	text-align: center;
+}
+span, h1{
+	color: #fff;
+}
+article p{
+	margin-top: 50px;
+	text-align: left;
+	color: #bbb;
+	font-size: 18px
+}
+footer {
+	clear: both;
+	padding: 50px; 
+	height: 200px;  
+}
+
+footer p {
+	font-size: 11px; 
+	color: #c2c2c2; 
+}
+
+.copyright {
+	float: left; 
+}
+
+.about {
+	float: right; 
+}

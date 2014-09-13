@@ -1,27 +1,150 @@
-*{
-  margin:0;
-  padding:0;
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif; 
 }
-body{
-  background:url(img/bg.png);
+
+body {
+	background-image: url("img/bg.png"); 
+	 
 }
-header{
-	position: fixed;
+
+header {
+	width:97,2%;
+	height:112px;
+	padding: 20px 20px 0px; 
+	background-color:#FFF;	
+}
+
+.logos{
+	float: left; 
+	margin-left: 35px; 
+}
+
+#logo h1 {
+	font-size: 33px;
+	color: #ff0000;
+	font-weight: bold;
+}
+
+#slogan p {
+	color: #787878; 
+	font-size: 18px; 
+}
+
+
+.menus{
+	text-align: right;
+	padding: 10px 20px 35px 0;
+}
+
+.menus a{
+	text-decoration: none; 
+	color: #787878;	
+	}
+	
+
+.search a {
+	padding: 0 5px 0 5px;
+	font-size: 11px;
+}
+
+.search li {
+	display:inline-block;
+}
+.search_text{
+	border:none;
+	background: url('img/search_text.png') no-repeat -5px 12px;
+}
+.button { 
+	margin-left: -40px;
+	padding:6px 15px 6px 30px;
+	background: url('img/search.png') no-repeat; 
+	border: none;
+}
+
+.nav a{
+	padding: 0px 9px 0 9px; 
+	font-size: 18px;
+}
+
+.nav a:last-child{padding-right: 0}
+
+.position {
+	color: #303132;
+	font-weight: 700;
+	}
+
+section first-child{ }
+section{
+position: relative;
+display:inline-block; 
+padding-top: 40px; 
+width:20%;
+margin-bottom:30px;
+margin-left:53px;
+float: left;  
+}
+
+
+
+section img { 
+	width:100%; 
+	height: 400px;
+}
+
+section p {
+	text-align: right; 
+	color: #787878; 
+	font-size: 12px; 
+ }
+
+.text p {
+	position: absolute; 
+	color:white; 
+	font-size: 40px; 
 	width: 100%;
-	background-color: #fff;
+	margin-top: -400px; 
+	padding: 20px; 
+	text-align: left; 
+	
 }
-.logo{
-	margin-left: 50px;
+
+article {
+	float: left; 
+	color: white; 
+	font-size: 34; 
+	text-align: center; 
+	padding:60px; 
+	padding-bottom: 200px; 
 }
-input{
-  position: relative;
-  bottom: 25px;
-  left: 250px;
+article h1{
+	font-size: 34px; 
+	padding-bottom: 40px; 
 }
-a{
-  display: inline-block;
-  text-decoration: none;
-  position: relative;
-  list-style: none;
-  color: #a3a3a3;
+
+article p {
+	color: #c2c2c2; 
+	font-size: 18px; 
 }
+
+footer {
+	padding: 50px; 
+	height: 1000px;  
+}
+
+footer p{
+	font-size: 11px; 
+	color: #c2c2c2; 
+}
+
+.copyright {
+	float: left; 
+}
+
+.about {
+	float: right; 
+}
+
+
+
